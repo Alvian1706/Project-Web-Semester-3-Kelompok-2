@@ -1,0 +1,60 @@
+.navbar {
+  min-height: 120px;
+  background-color: #fff !important;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar .nav-link {
+  color: #000 !important;
+  font-size: 18px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+  color: rgb(198, 0, 0) !important;
+}
+
+.navbar-nav {
+  gap: 22px;
+  align-items: center;
+}
+
+.navbar-nav img {
+  height: 50px;
+  width: auto;
+}
+
+
+/* ====== BOOKING BUTTON ====== */
+.booking-btn {
+  background-color: rgb(171, 0, 0);
+  color: #fff;
+  border-radius: 10px;
+  padding: 10px 22px;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+  display: block;
+}
+
+.booking-btn:hover {
+  background-color: rgb(255, 25, 25);
+  transform: scale(1.05);
+  color: white;
+}
+
+
+/* ====== IMAGE ====== */
+.Bus {
+  width: 100%;        /* memenuhi lebar container */
+  height: auto;       /* tinggi mengikuti proporsi gambar */
+  max-height: 600px;  /* opsional, batasi tinggi di desktop */
+  object-fit: cover;  /* tetap proporsional dan menutupi container */
+  object-position: center top; /* fokus di tengah */
+}
+
