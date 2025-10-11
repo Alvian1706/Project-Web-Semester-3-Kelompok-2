@@ -49,24 +49,322 @@
         <li class="nav-item"><a class="nav-link" href="/Promo/Promo.html">Promo</a></li>
         <li class="nav-item"><a class="nav-link" href="/Tentang_Kami/Tentang.html">Tentang Kami</a></li>
         <li class="nav-item"><a class="nav-link" href="/Kontak/Kontak.html">Kontak</a></li>
-              <button type="button" class="booking-btn ms-lg-3">Booking Sekarang</button>
-
+        <button type="button" class="booking-btn ms-lg-3">Booking Sekarang</button>
       </ul>
     </div>
 
   </div>
 </nav>
 
+ <!-- HERO SECTION -->
+<section class="hero-section position-relative">
+  <!-- Gambar Latar -->
+  <img src="/Assets/Bis.jpg" class="img-fluid w-100 hero-img" alt="Bus IND'S 88 TRANS">
 
-  <!-- IMAGE -->
-<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="/Assets/Bis.jpg" class="img-fluid w-100 carousel-img" alt="Bus IND'S 88 TRANS" />
+  <!-- TEKS PROMOSI DI ATAS GAMBAR -->
+  <div class="hero-text position-absolute top-50 translate-middle-y ms-5 text-white">
+    <h1 class="Indonesia">Jelajahi Indonesia dengan</h1>
+    <h2 class="WISATA">Bus Wisata Terbaik</h2>
+    <p class="lead mb-4">
+      Nikmati perjalanan yang aman, nyaman, dan berkesan bersama armada bus modern kami.<br>
+      Destinasi impian Anda menanti!
+    </p>
+
+    <!-- Tombol -->
+    <div class="d-flex flex-wrap gap-3">
+      <a href="/Booking/Booking.html" class="btn btn-danger btn-lg px-4">Booking Sekarang</a>
+      <a href="/Armada_Bus/Armada.html" class="btn btn-outline-light btn-lg px-4">Lihat Armada</a>
+    </div>
+
+    <!-- Info Statistik -->
+    <div class="mt-4 d-flex flex-wrap gap-4 text-white-50 fs-6">
+      <span><i class="bi bi-shield-check me-1"></i> Asuransi Perjalanan</span>
+      <span><i class="bi bi-people me-1"></i> 10.000+ Pelanggan</span>
+      <span><i class="bi bi-star-fill text-warning me-1"></i> Rating 4.8/5</span>
     </div>
   </div>
-</div>
 
+  <!-- FORM BOOKING CEPAT DI ATAS GAMBAR -->
+  <div class="booking-card position-absolute top-50 end-0 translate-middle-y me-5 p-4">
+    <h5 class="fw-bold mb-3">Booking Cepat</h5>
+    <form>
+      <div class="mb-3">
+        <label for="tujuan" class="form-label">Tujuan Wisata</label>
+        <select id="tujuan" class="form-select">
+          <option selected>Pilih Destinasi</option>
+          <option>Bali</option>
+          <option>Bandung</option>
+          <option>Yogyakarta</option>
+        </select>
+      </div>
+
+      <div class="mb-3">
+        <label for="tanggal" class="form-label">Tanggal</label>
+        <input type="date" id="tanggal" class="form-control">
+      </div>
+
+      <div class="mb-3">
+        <label for="penumpang" class="form-label">Penumpang</label>
+        <select id="penumpang" class="form-select">
+          <option>10 Orang</option>
+          <option>20 Orang</option>
+          <option>30 Orang</option>
+        </select>
+      </div>
+
+      <button type="submit" class="btn btn-danger w-100 fw-bold">
+        Cari Bus Tersedia
+      </button>
+    </form>
+  </div>
+</section>
+
+<!-- WHY CHOOSE US -->
+<section class="why-section py-5 text-center">
+  <div class="container">
+    <h2 class="fw-bold mb-3">
+      Mengapa Memilih <span class="text-danger">IND'S 88 TRANS?</span>
+    </h2>
+    <p class="text-muted mb-5">
+      Fasilitas lengkap dan pelayanan terbaik untuk perjalanan wisata yang tak terlupakan
+    </p>
+
+    <div class="row g-4">
+      <!-- Card 1 -->
+      <div class="col-md-4">
+        <div class="feature-card p-4 shadow-sm h-100">
+          <div class="icon-box mb-3">
+            <i class="material-icons">air</i>
+          </div>
+          <h5 class="fw-bold">AC Full Blast</h5>
+          <p class="text-muted">Pendingin ruangan berkualitas untuk kenyamanan maksimal</p>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col-md-4">
+        <div class="feature-card p-4 shadow-sm h-100">
+          <div class="icon-box mb-3">
+            <i class="material-icons">wifi</i>
+          </div>
+          <h5 class="fw-bold">WiFi Gratis</h5>
+          <p class="text-muted">Koneksi internet cepat sepanjang perjalanan</p>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col-md-4">
+        <div class="feature-card p-4 shadow-sm h-100">
+          <div class="icon-box mb-3">
+            <i class="material-icons">bolt</i>
+          </div>
+          <h5 class="fw-bold">Charging Port</h5>
+          <p class="text-muted">Colokan listrik di setiap kursi untuk gadget Anda</p>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="col-md-4">
+        <div class="feature-card p-4 shadow-sm h-100">
+          <div class="icon-box mb-3">
+            <i class="material-icons">event_seat</i>
+          </div>
+          <h5 class="fw-bold">Kursi Reclining</h5>
+          <p class="text-muted">Kursi yang dapat disandarkan untuk istirahat optimal</p>
+        </div>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="col-md-4">
+        <div class="feature-card p-4 shadow-sm h-100">
+          <div class="icon-box mb-3">
+            <i class="material-icons">security</i>
+          </div>
+          <h5 class="fw-bold">Asuransi Perjalanan</h5>
+          <p class="text-muted">Perlindungan lengkap untuk keamanan perjalanan</p>
+        </div>
+      </div>
+
+      <!-- Card 6 -->
+      <div class="col-md-4">
+        <div class="feature-card p-4 shadow-sm h-100">
+          <div class="icon-box mb-3">
+            <i class="material-icons">schedule</i>
+          </div>
+          <h5 class="fw-bold">On Time Guarantee</h5>
+          <p class="text-muted">Jaminan tepat waktu atau gratis perjalanan berikutnya</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ARMADA SECTION -->
+<section class="armada-section py-5 text-center">
+  <div class="container">
+    <h2 class="fw-bold mb-3">
+      Pilihan <span class="text-danger">Armada Bus</span> Terbaik
+    </h2>
+    <p class="text-muted mb-5">
+      Berbagai tipe bus sesuai kebutuhan perjalanan Anda, mulai dari keluarga hingga grup besar
+    </p>
+
+    <div class="row g-4 justify-content-center">
+      <!-- Card 1 -->
+      <div class="col-md-4">
+        <div class="card armada-card border-0 shadow-sm">
+          <div class="position-relative">
+            <img src="Assets/Bis.jpg" class="card-img-top rounded-top-4" alt="Executive Class">
+            <span class="badge bg-danger passenger-badge">35 Penumpang</span>
+          </div>
+          <div class="card-body text-start">
+            <h5 class="fw-bold">Executive Class</h5>
+            <div class="d-flex align-items-center mb-2">
+              <i class="material-icons text-warning me-1" style="font-size:18px;">star</i>
+              <span>4.9</span>
+              <small class="text-muted ms-1">(125 ulasan)</small>
+            </div>
+            <p class="text-muted small">Bus mewah dengan fasilitas lengkap untuk perjalanan jarak jauh</p>
+            <div class="mb-3">
+              <span class="badge bg-light text-dark me-1">AC</span>
+              <span class="badge bg-light text-dark me-1">WiFi</span>
+              <span class="badge bg-light text-dark me-1">Reclining Seat</span>
+              <span class="badge bg-light text-dark">Charging Port</span>
+            </div>
+            <h6 class="fw-bold mb-3">Rp 1.500.000 <small class="text-muted fw-normal">per hari</small></h6>
+            <a href="#" class="btn btn-danger rounded-pill px-4">
+              Detail <i class="material-icons ms-1" style="font-size:18px;">arrow_forward</i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col-md-4">
+        <div class="card armada-card border-0 shadow-sm">
+          <div class="position-relative">
+            <img src="Assets/Bis.jpg" class="card-img-top rounded-top-4" alt="Premium Comfort">
+            <span class="badge bg-danger passenger-badge">25 Penumpang</span>
+          </div>
+          <div class="card-body text-start">
+            <h5 class="fw-bold">Premium Comfort</h5>
+            <div class="d-flex align-items-center mb-2">
+              <i class="material-icons text-warning me-1" style="font-size:18px;">star</i>
+              <span>4.8</span>
+              <small class="text-muted ms-1">(89 ulasan)</small>
+            </div>
+            <p class="text-muted small">Bus premium dengan kursi lebar dan fasilitas hiburan</p>
+            <div class="mb-3">
+              <span class="badge bg-light text-dark me-1">AC</span>
+              <span class="badge bg-light text-dark me-1">WiFi</span>
+              <span class="badge bg-light text-dark me-1">Toilet</span>
+              <span class="badge bg-light text-dark">Entertainment</span>
+            </div>
+            <h6 class="fw-bold mb-3">Rp 2.200.000 <small class="text-muted fw-normal">per hari</small></h6>
+            <a href="#" class="btn btn-danger rounded-pill px-4">
+              Detail <i class="material-icons ms-1" style="font-size:18px;">arrow_forward</i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col-md-4">
+        <div class="card armada-card border-0 shadow-sm">
+          <div class="position-relative">
+            <img src="Assets/Bis.jpg" class="card-img-top rounded-top-4" alt="Family Van">
+            <span class="badge bg-danger passenger-badge">12 Penumpang</span>
+          </div>
+          <div class="card-body text-start">
+            <h5 class="fw-bold">Family Van</h5>
+            <div class="d-flex align-items-center mb-2">
+              <i class="material-icons text-warning me-1" style="font-size:18px;">star</i>
+              <span>4.7</span>
+              <small class="text-muted ms-1">(67 ulasan)</small>
+            </div>
+            <p class="text-muted small">Van keluarga untuk perjalanan grup kecil yang nyaman</p>
+            <div class="mb-3">
+              <span class="badge bg-light text-dark me-1">AC</span>
+              <span class="badge bg-light text-dark me-1">WiFi</span>
+              <span class="badge bg-light text-dark me-1">Family Friendly</span>
+              <span class="badge bg-light text-dark">Storage</span>
+            </div>
+            <h6 class="fw-bold mb-3">Rp 850.000 <small class="text-muted fw-normal">per hari</small></h6>
+            <a href="#" class="btn btn-danger rounded-pill px-4">
+              Detail <i class="material-icons ms-1" style="font-size:18px;">arrow_forward</i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-5">
+      <a href="Armada_Bus/Armada.html" class="btn btn-danger btn-lg rounded-pill px-5 shadow-sm">
+        Lihat Semua Armada
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer bg-danger text-white pt-5 pb-4 mt-5">
+  <div class="container">
+    <div class="row gy-4">
+      <!-- Kolom 1 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="d-flex align-items-center mb-3">
+          <img src="/Assets/a1.png" alt="Logo IND'S 88 TRANS" width="50" class="me-2">
+          <div>
+            <h5 class="fw-bold mb-0">IND'S 88 TRANS</h5>
+            <small>Travel Indonesia</small>
+          </div>
+        </div>
+        <p>
+          Perusahaan bus wisata terpercaya dengan lebih dari 10 tahun pengalaman.
+          Kami berkomitmen memberikan layanan perjalanan yang aman, nyaman,
+          dan berkesan ke seluruh destinasi wisata di Indonesia.
+        </p>
+        <div class="d-flex gap-3 fs-5">
+          <a href="#" class="text-white"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="text-white"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="text-white"><i class="bi bi-twitter"></i></a>
+        </div>
+      </div>
+
+      <!-- Kolom 2 -->
+      <div class="col-lg-4 col-md-6">
+        <h5 class="fw-bold mb-3">Menu Utama</h5>
+        <ul class="list-unstyled">
+          <li><a href="/Index.html" class="text-white text-decoration-none">Home</a></li>
+          <li><a href="/Armada_Bus/Armada.html" class="text-white text-decoration-none">Armada Bus</a></li>
+          <li><a href="/Paket_Wisata/Paket.html" class="text-white text-decoration-none">Paket Wisata</a></li>
+          <li><a href="/Booking/Booking.html" class="text-white text-decoration-none">Booking</a></li>
+          <li><a href="/Promo/Promo.html" class="text-white text-decoration-none">Promo</a></li>
+          <li><a href="/Tentang_Kami/Tentang.html" class="text-white text-decoration-none">Tentang Kami</a></li>
+        </ul>
+      </div>
+
+      <!-- Kolom 3 -->
+      <div class="col-lg-4 col-md-6">
+        <h5 class="fw-bold mb-3">Kontak Kami</h5>
+        <ul class="list-unstyled">
+          <li><i class="bi bi-telephone me-2"></i> +62 812-3456-7890</li>
+          <li class="ms-2 text-white-50">24 Jam Customer Service</li>
+          <li class="mt-2"><i class="bi bi-envelope me-2"></i> info@inds88trans.com</li>
+          <li class="ms-2 text-white-50">Booking & Informasi</li>
+          <li class="mt-2"><i class="bi bi-geo-alt me-2"></i> Jakarta, Indonesia</li>
+          <li class="ms-2 text-white-50">Kantor Pusat</li>
+        </ul>
+      </div>
+    </div>
+
+    <hr class="border-light mt-4">
+    <p class="text-center mb-0 small">
+      © 2024 IND'S 88 TRANS Travel Indonesia. Semua hak cipta dilindungi.
+    </p>
+  </div>
+</footer>
 
   <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
